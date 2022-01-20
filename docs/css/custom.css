@@ -49,3 +49,61 @@
       left: 0;
     }
   }
+
+#header{
+    position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
+    width: 100vw;
+    height: 53vw;/*高さを全画面にあわせる*/
+} 
+
+#video-area{
+    position: static;
+    z-index: -1;/*最背面に設定*/
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+#video {
+    /*天地中央配置*/
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    /*width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    /*height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+    width: 100%; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#video-area-title{
+    color: #444444;
+    background-color:rgba(255,255,255,.4);
+    font-family:"Poiret One", sans-serif;
+    font-size:5rem;
+    padding:17vw 0 0 0;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    height:22vw;
+}
+
+#video-area-subtitle{
+  color: #444444;
+  background-color:rgba(255,255,255,.4);
+  font-family:"Poiret One", sans-serif;
+  font-size:3rem;
+  padding:0 0 0 0;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  height:31vw;
+}
