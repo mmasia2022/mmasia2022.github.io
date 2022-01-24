@@ -1,6 +1,8 @@
 /* your styles go here */
 /* Example site test */
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
 .box-image-text .image {
     min-height: 190px;
     max-height: 190px;
@@ -84,26 +86,20 @@
 
 #video-area-title{
     color: #444444;
-    background-color:rgba(255,255,255,.4);
-    font-family:"Poiret One", sans-serif;
-    font-size:5rem;
+    background-color:rgba(255,255,255,.15);
+    font-family: 'Outfit', sans-serif;
     padding:17vw 0 0 0;
     text-align: center;
     vertical-align: middle;
     margin-top: 0;
     margin-bottom: 0;
-    height:22vw;
+    height:53vw;
 }
 
-#video-area-subtitle{
-  color: #444444;
-  background-color:rgba(255,255,255,.4);
-  font-family:"Poiret One", sans-serif;
-  font-size:3rem;
-  padding:0 0 0 0;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 0;
-  margin-bottom: 0;
-  height:31vw;
+#top-title{
+  font-size: 4vw;
+}
+
+#top-subtitle{
+  font-size: 3vw;
 }
