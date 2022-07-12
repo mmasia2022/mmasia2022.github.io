@@ -86,7 +86,7 @@
 
 #video-area-title{
     color: #444444;
-    background-color:rgba(255,255,255,.15);
+    background-color:rgba(255,255,255,.0);
     font-family: 'Outfit', sans-serif;
     padding:17vw 0 0 0;
     text-align: center;
@@ -94,6 +94,19 @@
     margin-top: 0;
     margin-bottom: 0;
     height:53vw;
+}
+
+#video-area-sub{
+  color: #444444;
+  background-color:rgba(255,255,255,.50);
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 0;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 #top-title{
