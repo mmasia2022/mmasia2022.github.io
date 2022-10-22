@@ -143,3 +143,135 @@ td#registration-timing {
 td#registration-price {
   text-align: right;
 }
+
+
+h2 {
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+a#program {
+  pointer-events: none;
+  padding-top: 70px;
+  margin-top: -70px;
+  color:inherit;
+  text-decoration: none;
+}
+
+#program-day {
+  font-size: 18px;
+  color: black;
+}
+
+#program-display-date {
+  font-weight: 900;
+  font-size: 22px;
+  width: 100%;
+  border-bottom: solid black;
+  margin-top: 20px;
+}
+#program-session {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+#program-time {
+  display: inline-block;
+  width: 10em;
+  font-weight: 900;
+}
+
+#program-session-name {
+  display: inline-block;
+  font-weight: 900;
+}
+
+#program-presentatin-list {
+  margin-left: 2em;
+}
+
+#program-presentation {
+  display: inline;
+}
+#program-paper-id {
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 2px;
+  font-weight: 900;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-left: 35px;
+}
+#program-paper-title {
+  display: inline-block;
+  text-indent: -40px;
+  padding-left: 40px;
+}
+#program-paper-author {
+  font-size: 14px;
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #555555
+}
+#program-paper-id.oral, #program-glance-session.oral  {
+  background: plum;
+}
+#program-paper-id.short, #program-glance-session.short  {
+  background: lightsalmon;
+}
+#program-paper-id.demo, #program-glance-session.demo {
+  background: palegreen;
+}
+#program-glance-session.workshop {
+  background: skyblue;
+}
+#program-glance-session.opening, #program-glance-session.closing {
+  background: linen;
+}
+#program-glance-session.tutorial {
+  background: skyblue;
+}
+#program-glance-session.keynote {
+  background: pink;
+}
+
+#program-at-a-glance {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+#program-glance-one-day {
+  width: 25%;
+  height: 480px;
+  background-color: white;
+  border-left: solid #dddddd 1px;
+  margin: 0px;
+  padding: 0px;
+}
+#program-glance-session {
+  width: 25%;
+  border-bottom: solid #dddddd 1px;
+  border-top: solid #dddddd 1px;
+  padding-left: 3px;
+  font-weight: 600;
+  font-size: 12px;
+}
+#program-glance-time {
+  font-size: 10px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  margin-right: 5px;
+}
+#program-glance-day {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-left: 3px;
+}
