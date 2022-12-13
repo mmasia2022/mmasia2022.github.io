@@ -313,3 +313,11 @@ a#program {
     display: none;
   }
 }
+
+.brochure {
+  margin: 30px auto; /* ボックスを中央寄せにする */
+  width:303px; /* ボックスの横幅を指定する */
+  height: 440px; /* ボックスの高さを指定する */
+  background: #ffffff; /* ボックスの背景色を指定する */
+  border:1px solid #000000; /* 境界線を実線で太めに指定する */
+  }
