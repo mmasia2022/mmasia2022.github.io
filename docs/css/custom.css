@@ -59,13 +59,19 @@
 } 
 
 #video-area{
-    position: static;
-    z-index: -1;/*最背面に設定*/
-    top: 0;
-    right:0;
-    left:0;
-    bottom:0;
-    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url("../img/dreamstime_xxl_87051291.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #video {
